@@ -145,7 +145,7 @@ export default function RogerLanches() {
         .map((item) => `${getEmoji(item.name)} ${item.name} - R$ ${item.price}`)
         .join("\n")}\n\n💰 Total: R$ ${calcularTotal()}\n\n👤 Nome: ${nome}\n📞 Telefone: ${telefone}\n🏠 Endereço: ${endereco}\n💳 Pagamento: ${pagamento} ${getPagamentoEmoji(pagamento)}`
     );
-    window.open(`https://wa.me/15981492777?text=${mensagem}`, "_blank");
+    window.open(`https://wa.me/1540028922?text=${mensagem}`, "_blank");
     setShowModal(false);
   };
 
@@ -281,7 +281,7 @@ export default function RogerLanches() {
 
       <footer className="text-center text-sm text-white mt-8 py-4 border-t border-yellow-600">
         <p className="font-bold text-lg">🍔 Roger Lanches</p>
-        <p>📞 (15) 98149-2777</p>
+        <p>📞 (15) 40028923</p>
         <p>📍 Rua Exemplo, 123 - Centro - Cidade/SP</p>
       </footer>
     </div>
